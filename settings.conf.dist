@@ -1,0 +1,12 @@
+[OAuth]
+Version: 1.0
+Host: oauth.server.com
+Port: 443
+UseHTTP: False
+URL: /sessions
+Concept: ConceptData
+UserName: USERNAME
+Password: PASSWORD
+consumer_key: com.your.package.name
+consumer_secret: WHATEVER
+

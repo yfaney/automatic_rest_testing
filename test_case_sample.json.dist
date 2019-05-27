@@ -1,0 +1,32 @@
+{
+  "TestCases": [
+    {
+      "name": "Test Case 1",
+      "description": "Test case for when barcode is valid, MedCriteria is present, visitId is null, and Med is matched",
+      "url": "http://localhost:8000/barcode",
+      "data": {
+        "barcodeData": "00338001602",
+        "allowedBarcodeTypes": {
+          "patient": true,
+          "medication": true,
+          "device": true,
+          "personnel": true
+        }
+      }
+    },
+    {
+      "name": "PUT_Method:Test Case for empty body",
+      "description": "Test case for when an empty data is provided",
+      "url": "http://localhost:8000/barcode",
+      "method": "PUT",
+      "data": {
+        }
+      }
+    },
+    {
+      "name": "Get user list",
+      "description": "Test case to get a user list",
+      "url": "http://localhost:8000/user_list?user=ABCDE",
+    }
+  ]
+}

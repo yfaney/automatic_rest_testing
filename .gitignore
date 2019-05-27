@@ -1,0 +1,14 @@
+__pycache__
+*.pyc
+*.bak
+
+.idea
+
+*.conf
+
+*.json
+
+*.log
+logs/*
+
+.DS_Store
